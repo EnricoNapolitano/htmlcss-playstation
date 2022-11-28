@@ -11,6 +11,9 @@
 .lbg-blue {
     background-color:cadetblue;
 }
+.pt-250 {
+    padding-top: 250px;
+}
 
 /** GENERICS */
 header {
@@ -26,10 +29,10 @@ img {
 #jumbotron .row {
     min-height: 600px;
 }
-#jumbotron .row::before {
+/* #jumbotron .row:first-child::before {
     content:'';
     height:300px;
-}
+} */
 
 /* New release */
 #new-release {
