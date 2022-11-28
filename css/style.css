@@ -63,6 +63,11 @@ img {
     width: 100%;
 }
 
+/** FOOTER */
+footer {
+    color: white;
+}
+
 /** RESPONSIVE */
 /* md screen */
 @media screen and (min-width: 768px) {
