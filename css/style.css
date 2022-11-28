@@ -58,6 +58,11 @@ img {
     display: none;
 }
 
+/* Social Media */
+#social img {
+    width: 100%;
+}
+
 /** RESPONSIVE */
 /* md screen */
 @media screen and (min-width: 768px) {
