@@ -23,6 +23,10 @@ img {
     height: 100%;
     width: auto;
 }
+#playstation-plus figure,
+#playstation-now figure {
+    margin-bottom: 0;
+}
 
 /** MAIN */
 /* Jumbotron */
@@ -42,19 +46,25 @@ img {
     min-height: 200px;
 }
 
-/* Play Station Plus */
+/* PlayStation Plus */
 #playstation-plus .games {
     height: 300px;
     display: none;
 }
-#playstation-plus figure {
-    margin-bottom: 0;
+
+/* PlayStation Now  */
+#playstation-now .games {
+    height: 300px;
+    display: none;
 }
 
 /** RESPONSIVE */
 /* md screen */
 @media screen and (min-width: 768px) {
     #playstation-plus .games {
+        display: block;
+    }
+    #playstation-now .games {
         display: block;
     }
 }
