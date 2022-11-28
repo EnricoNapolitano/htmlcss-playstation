@@ -16,3 +16,13 @@
 header {
     min-height: 100px;
 }
+
+/** MAIN */
+/* Jumbotron */
+#jumbotron .row {
+    min-height: 600px;
+}
+#jumbotron .row::before {
+    content:'';
+    height:300px;
+}
