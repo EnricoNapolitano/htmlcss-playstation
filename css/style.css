@@ -1,0 +1,18 @@
+/** UTILS */
+.brd {
+    border: 1px dashed black;
+}
+.lbg-brown {
+    background-color: brown;
+}
+.lbg-wood {
+    background-color:burlywood;
+}
+.lbg-blue {
+    background-color:cadetblue;
+}
+
+/** GENERICS */
+header {
+    min-height: 100px;
+}
