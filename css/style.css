@@ -26,3 +26,11 @@ header {
     content:'';
     height:300px;
 }
+
+/* New release */
+#new-release {
+    color: white;
+}
+#new-release .row > .col {
+    min-height: 200px;
+}
