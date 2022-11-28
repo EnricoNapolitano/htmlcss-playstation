@@ -16,6 +16,10 @@
 header {
     min-height: 100px;
 }
+img {
+    height: 100%;
+    width: auto;
+}
 
 /** MAIN */
 /* Jumbotron */
@@ -33,4 +37,21 @@ header {
 }
 #new-release .row > .col {
     min-height: 200px;
+}
+
+/* Play Station Plus */
+#playstation-plus .games {
+    height: 300px;
+    display: none;
+}
+#playstation-plus figure {
+    margin-bottom: 0;
+}
+
+/** RESPONSIVE */
+/* md screen */
+@media screen and (min-width: 768px) {
+    #playstation-plus .games {
+        display: block;
+    }
 }
