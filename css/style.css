@@ -115,6 +115,12 @@ header {
     left: 0;
     right:0;
 }
+.top-header {
+    min-height: 35px;
+}
+.top-header figure {
+    min-width: 100px;
+}
 
 /* main-jumbotron */
 #main-jumbo > .jumbo {
