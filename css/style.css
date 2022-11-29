@@ -139,6 +139,7 @@ img.jumbo-title{
 .thumbs li {
     min-width: 160px;
     height: auto;
+    transition: 0.4s ease;
 }
 .brd-blue {
     border: 3px solid var(--cs-blue);
@@ -241,6 +242,11 @@ footer a {
 }
 a.cs-btn:hover {
     color: white;
+}
+
+/* thumbs */
+#main-jumbo li:hover {
+    transform: translate(0, -20px);
 }
 
 /** RESPONSIVE */
