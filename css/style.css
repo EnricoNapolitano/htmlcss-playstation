@@ -4,6 +4,7 @@
     --cs-orange:#cd3d0f;
     --cs-blue: #0070d1;
     --cs-dark-blue: #161c3b;
+    --cs-blue-footer: #00439c;
     --cs-black: #1f1f1f;
     --cs-grey: #bebcbb;
     --cs-light-grey: #d9dadc;
@@ -26,6 +27,9 @@
 }
 .cs-bg-dark-blue{
     background-color: var(--cs-dark-blue);
+}
+.cs-bg-blue-footer {
+    background-color: var(--cs-blue-footer);
 }
 .cs-bg-orange {
     background-color: var(--cs-orange);
