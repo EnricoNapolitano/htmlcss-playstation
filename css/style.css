@@ -161,6 +161,11 @@ img.jumbo-title{
 /* PlayStation 5 */
 #playstation5 .thumbs:first-child {
     border-bottom: 2px solid var(--cs-blue);
+    opacity: 1;
+}
+#playstation5 .thumbs {
+    opacity: 0.5;
+    transition: 0.1s ease;
 }
 
 /* New release jumbo */
@@ -247,6 +252,10 @@ a.cs-btn:hover {
 /* thumbs */
 #main-jumbo li:hover {
     transform: translate(0, -20px);
+}
+#playstation5 .thumbs:hover {
+    opacity: 1;
+    border-bottom: 2px solid var(--cs-blue);
 }
 
 /** RESPONSIVE */
