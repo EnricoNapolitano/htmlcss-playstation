@@ -118,6 +118,14 @@ header {
     left: 0;
     right:0;
 }
+.box-drop {
+    display: flex;
+    justify-content: center;
+}
+.dropdown-item {
+    display: block;
+    max-width: 10%;
+}
 .top-header {
     min-height: 35px;
 }
