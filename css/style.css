@@ -15,9 +15,9 @@
 .lbg-blue {
     background-color:cadetblue;
 }
-.pt-250 {
+/* .pt-250 {
     padding-top: 250px;
-}
+} */
 
 /** GENERICS */
 ul {
@@ -48,9 +48,18 @@ header {
 }
 
 /* Jumbotron */
-#jumbotron .row {
-    min-height: 600px;
+.main-jumbo {
+    background-image: url('../img/jumbo-bg.png');
 }
+.info-box {
+    color:white;
+    padding-top: 245px;
+    padding-bottom: 30px;
+}
+
+/* #jumbotron .row {
+    min-height: 600px;
+} */
 /* #jumbotron .row:first-child::before {
     content:'';
     height:300px;
