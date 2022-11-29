@@ -40,6 +40,9 @@ h5 {
     color: var(--cs-blue);
     font-size: 1rem;
 }
+address {
+    font-size: 1rem;
+}
 ul {
     padding-left: 0;
 }
@@ -89,6 +92,11 @@ header {
 }
 .thumbs .cs-rounded {
     border-radius: 20px;
+}
+
+/* PlayStation 5 */
+#playstation5 .thumbs:first-child {
+    border-bottom: 2px solid var(--cs-blue);
 }
 
 /* New release */
