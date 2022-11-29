@@ -5,6 +5,7 @@
     --cs-blue: #0070d1;
     --cs-black: #1f1f1f;
     --cs-grey: #bebcbb;
+    --cs-grey-text: #727272;
     --cs-dark-blue: #161c3b;
 
     /*! bootstrap */
@@ -41,18 +42,24 @@
 .lbg-blue {
     background-color:cadetblue;
 }
-.pb-section {
-    padding-bottom: 80px;
+.pt-section {
+    padding-top: 80px;
 }
 .info-box {
     color:white;
     padding-bottom: 50px;
+}
+.text-cs-grey {
+    color: var(--cs-grey-text);
 }
 
 /** GENERICS */
 h5 {
     color: var(--cs-blue);
     font-size: 1rem;
+}
+p {
+    line-height: 1.5rem;
 }
 address {
     font-size: 1rem;
@@ -80,6 +87,9 @@ a.btn {
     background-position: top center;
     background-size: cover;
 }
+.cs-rounded {
+    border-radius: 20px;
+}
 
 /** MAIN */
 /* Header */
@@ -104,9 +114,6 @@ img.jumbo-title{
 .thumbs li {
     min-width: 160px;
     height: auto;
-}
-.thumbs .cs-rounded {
-    border-radius: 20px;
 }
 
 /* PlayStation 5 */
