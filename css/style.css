@@ -175,6 +175,23 @@ img.jumbo-title{
 footer {
     color: white;
 }
+footer .icon {
+    width: 25px;
+}
+footer address {
+    margin-bottom: 0;
+    padding-left: 10px;
+}
+.ps-logo {
+    height: 75px;
+}
+footer a {
+    color: white;
+    text-decoration: none;
+}
+.sie-logo {
+    width: 140px;
+}
 
 /** RESPONSIVE */
 
