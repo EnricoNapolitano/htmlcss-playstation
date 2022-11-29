@@ -12,9 +12,13 @@
 }
 
 /** UTILS */
-.container-fluid {
+/* .container-fluid {
     padding-left: 3rem!important;
     padding-right: 3rem!important;
+} */
+.wrap {
+    max-width: 1400px;
+    margin: 0 auto;
 }
 .brd {
     border: 1px dashed black;
