@@ -6,6 +6,9 @@
     --cs-black: #1f1f1f;
     --cs-grey: #bebcbb;
     --cs-dark-blue: #161c3b;
+
+    /*! bootstrap */
+    --bs-body-font-size: 1.2rem;
 }
 
 /** UTILS */
@@ -25,8 +28,15 @@
 .lbg-blue {
     background-color:cadetblue;
 }
+.pb-section {
+    padding-bottom: 80px;
+}
 
 /** GENERICS */
+h5 {
+    color: var(--cs-blue);
+    font-size: 1rem;
+}
 ul {
     padding-left: 0;
 }
