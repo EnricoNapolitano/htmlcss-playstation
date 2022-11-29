@@ -19,6 +19,9 @@
 .brd {
     border: 1px dashed black;
 }
+.cs-bg-blue {
+    background-color: var(--cs-blue);
+}
 .lbg-brown {
     background-color: brown;
 }
@@ -50,8 +53,7 @@ img {
     height: 100%;
     width: auto;
 }
-#playstation-plus figure,
-#playstation-now figure {
+figure {
     margin-bottom: 0;
 }
 a.btn {
