@@ -3,11 +3,11 @@
 :root{
     --cs-orange:#cd3d0f;
     --cs-blue: #0070d1;
+    --cs-dark-blue: #161c3b;
     --cs-black: #1f1f1f;
     --cs-grey: #bebcbb;
     --cs-light-grey: #d9dadc;
     --cs-grey-text: #727272;
-    --cs-dark-blue: #161c3b;
 
     /*! bootstrap */
     --bs-body-font-size: 1.2rem;
@@ -23,6 +23,9 @@
 }
 .cs-bg-blue {
     background-color: var(--cs-blue);
+}
+.cs-bg-dark-blue{
+    background-color: var(--cs-dark-blue);
 }
 .cs-bg-orange {
     background-color: var(--cs-orange);
@@ -146,15 +149,21 @@ img.jumbo-title{
     display: none;
     padding: 0;
     margin: 0 auto;
+    /*! da centralizzare */
 }
 #playstation-plus a.btn {
     color: var(--cs-blue);
 }
 
 /* PlayStation Now  */
+#playstation-now a.btn {
+    color: black;
+}
 #playstation-now .games {
-    height: 300px;
     display: none;
+    padding: 0;
+    margin: 0 auto;
+    /*! da centralizzare */
 }
 
 /* Social Media */
