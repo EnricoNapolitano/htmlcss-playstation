@@ -1,4 +1,8 @@
 /** UTILS */
+.container-fluid {
+    padding-left: 3rem!important;
+    padding-right: 3rem!important;
+}
 .brd {
     border: 1px dashed black;
 }
