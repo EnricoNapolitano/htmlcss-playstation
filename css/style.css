@@ -37,6 +37,9 @@ img {
 #playstation-now figure {
     margin-bottom: 0;
 }
+a.btn {
+    color:white;
+}
 
 /** MAIN */
 /* Header */
@@ -47,14 +50,19 @@ header {
     right:0;
 }
 
-/* Jumbotron */
+/* main-jumbotron */
 .main-jumbo {
     background-image: url('../img/jumbo-bg.png');
+    background-position: top center;
 }
 .info-box {
     color:white;
-    padding-top: 245px;
-    padding-bottom: 30px;
+    padding-top: 280px;
+    padding-bottom: 50px;
+}
+#main-jumbo img.jumbo{
+    width: 260px;
+    height: auto;
 }
 
 /* #jumbotron .row {
@@ -96,6 +104,7 @@ footer {
 }
 
 /** RESPONSIVE */
+
 /* md screen */
 @media screen and (min-width: 768px) {
     #playstation-plus .games {
@@ -103,5 +112,17 @@ footer {
     }
     #playstation-now .games {
         display: block;
+    }
+    #main-jumbo img.jumbo{
+        width: 380px;
+        height: auto;
+    }
+}
+
+/* xxl screen */
+@media screen and (min-width: 1400px) {
+    #main-jumbo img.jumbo{
+        width: 210px;
+        height: auto;
     }
 }
