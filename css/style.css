@@ -140,6 +140,22 @@ img.jumbo-title{
     min-width: 160px;
     height: auto;
 }
+.brd-blue {
+    border: 3px solid var(--cs-blue);
+}
+#main-jumbo li:first-child {
+    position: relative;
+}
+#main-jumbo li:first-child::before {
+    content: '';
+    border: 3px solid white;
+    border-radius: 17px;
+    position: absolute;
+    top: 3px;
+    bottom: 3px;
+    left: 15px;
+    right: 15px;
+}
 
 /* PlayStation 5 */
 #playstation5 .thumbs:first-child {
