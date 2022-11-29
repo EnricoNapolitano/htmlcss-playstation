@@ -5,6 +5,7 @@
     --cs-blue: #0070d1;
     --cs-black: #1f1f1f;
     --cs-grey: #bebcbb;
+    --cs-light-grey: #d9dadc;
     --cs-grey-text: #727272;
     --cs-dark-blue: #161c3b;
 
@@ -13,10 +14,6 @@
 }
 
 /** UTILS */
-/* .container-fluid {
-    padding-left: 3rem!important;
-    padding-right: 3rem!important;
-} */
 .wrap {
     max-width: 1400px;
     margin: 0 auto;
@@ -33,6 +30,18 @@
 .cs-bg-black {
     background-color: var(--cs-black);
 }
+.cs-bg-grey {
+    background-color: var(--cs-grey);
+}
+.cs-bg-light-grey {
+    background-color: var(--cs-light-grey);
+}
+.text-cs-grey {
+    color: var(--cs-grey-text);
+}
+.text-cs-blue {
+    color: var(--cs-blue)
+}
 .lbg-brown {
     background-color: brown;
 }
@@ -48,9 +57,6 @@
 .info-box {
     color:white;
     padding-bottom: 50px;
-}
-.text-cs-grey {
-    color: var(--cs-grey-text);
 }
 
 /** GENERICS */
@@ -70,12 +76,10 @@ ul {
 li {
     list-style: none;
 }
-header {
-    min-height: 100px;
-}
 img {
-    height: 100%;
-    width: auto;
+    max-width: 100%;
+    height: auto;
+    display: block;
 }
 figure {
     margin-bottom: 0;
@@ -90,11 +94,16 @@ a.btn {
 .cs-rounded {
     border-radius: 20px;
 }
+.img-title {
+    max-width: 320px;
+}
 
 /** MAIN */
 /* Header */
 header {
+    min-height: 100px;
     position: sticky;
+    z-index: 1;
     top: 0;
     left: 0;
     right:0;
@@ -134,8 +143,12 @@ img.jumbo-title{
 
 /* PlayStation Plus */
 #playstation-plus .games {
-    height: 300px;
     display: none;
+    padding: 0;
+    margin: 0 auto;
+}
+#playstation-plus a.btn {
+    color: var(--cs-blue);
 }
 
 /* PlayStation Now  */
@@ -158,9 +171,7 @@ footer {
 
 /* md screen */
 @media screen and (min-width: 768px) {
-    #playstation-plus .games {
-        display: block;
-    }
+    #playstation-plus .games,
     #playstation-now .games {
         display: block;
     }
