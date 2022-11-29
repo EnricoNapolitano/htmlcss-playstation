@@ -49,15 +49,6 @@
 .text-cs-blue {
     color: var(--cs-blue)
 }
-.lbg-brown {
-    background-color: brown;
-}
-.lbg-wood {
-    background-color:burlywood;
-}
-.lbg-blue {
-    background-color:cadetblue;
-}
 .pt-section {
     padding-top: 80px;
 }
@@ -65,8 +56,17 @@
     color:white;
     padding-bottom: 50px;
 }
+.cs-btn {
+    padding: 0.375rem 0.75rem;
+    border: 2px solid transparent;
+}
 
 /** GENERICS */
+a {
+    text-decoration: none;
+    font-size: 1rem;
+    color: white
+}
 h5 {
     color: var(--cs-blue);
     font-size: 1rem;
@@ -160,25 +160,20 @@ img.jumbo-title{
 }
 
 /* PlayStation Plus */
-#playstation-plus .games {
-    display: none;
-    padding: 0;
-    margin: 0 auto;
-    /*! da centralizzare */
-}
-#playstation-plus a.btn {
-    color: var(--cs-blue);
-}
-
-/* PlayStation Now  */
-#playstation-now a.btn {
-    color: black;
-}
+#playstation-plus .games,
 #playstation-now .games {
     display: none;
     padding: 0;
     margin: 0 auto;
-    /*! da centralizzare */
+
+}
+#playstation-plus a.cs-btn {
+    color: var(--cs-blue);
+}
+
+/* PlayStation Now  */
+#playstation-now a.cs-btn {
+    color: black;
 }
 
 /* Social Media */
@@ -206,6 +201,30 @@ footer a {
 }
 .sie-logo {
     width: 140px;
+}
+
+/** HOVER */
+/* buttons */
+.cs-btn {
+    border: 2px solid transparent;
+}
+.cs-btn.bg-dark:hover {
+    box-shadow: inset 0px 0px 0px 2px white;
+}
+.cs-btn.cs-bg-orange:hover {
+    box-shadow: inset 0px 0px 0px 2px black;
+}
+.cs-btn.cs-bg-blue:hover {
+    box-shadow: inset 0px 0px 0px 2px white;
+}
+.cs-btn.cs-bg-light-grey:hover {
+    box-shadow: inset 0px 0px 0px 2px var(--cs-grey);
+}
+#playstation-now .cs-btn.cs-bg-light-grey:hover {
+    box-shadow: inset 0px 0px 0px 2px var(--cs-dark-blue);
+}
+a.cs-btn:hover {
+    color: white;
 }
 
 /** RESPONSIVE */
