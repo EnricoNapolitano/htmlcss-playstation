@@ -1,3 +1,13 @@
+/*? COLOR PALETTE */
+/* customs */
+:root{
+    --cs-orange:#cd3d0f;
+    --cs-blue: #0070d1;
+    --cs-black: #1f1f1f;
+    --cs-grey: #bebcbb;
+    --cs-dark-blue: #161c3b;
+}
+
 /** UTILS */
 .container-fluid {
     padding-left: 3rem!important;
