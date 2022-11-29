@@ -29,6 +29,9 @@
 .cs-bg-orange {
     background-color: var(--cs-orange);
 }
+.cs-bg-black {
+    background-color: var(--cs-black);
+}
 .lbg-brown {
     background-color: brown;
 }
@@ -75,6 +78,7 @@ a.btn {
 }
 .jumbo {
     background-position: top center;
+    background-size: cover;
 }
 
 /** MAIN */
@@ -113,7 +117,6 @@ img.jumbo-title{
 /* New release jumbo */
 #new-release > .jumbo {
     background-image: url('../img/it-takes-two-hero-banner-desktop.jpg');
-    background-size: cover;
 }
 #new-release {
     color: white;
@@ -160,8 +163,8 @@ footer {
     }
 }
 
-/* xxl screen */
-@media screen and (min-width: 1400px) {
+/* lg screen */
+@media screen and (min-width: 992px) {
     img.jumbo-title{
         width: 210px;
         height: auto;
