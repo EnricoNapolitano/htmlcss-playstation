@@ -26,6 +26,9 @@
 .cs-bg-blue {
     background-color: var(--cs-blue);
 }
+.cs-bg-orange {
+    background-color: var(--cs-orange);
+}
 .lbg-brown {
     background-color: brown;
 }
@@ -37,6 +40,10 @@
 }
 .pb-section {
     padding-bottom: 80px;
+}
+.info-box {
+    color:white;
+    padding-bottom: 50px;
 }
 
 /** GENERICS */
@@ -66,6 +73,9 @@ figure {
 a.btn {
     color:white;
 }
+.jumbo {
+    background-position: top center;
+}
 
 /** MAIN */
 /* Header */
@@ -77,16 +87,13 @@ header {
 }
 
 /* main-jumbotron */
-.main-jumbo {
+#main-jumbo > .jumbo {
     background-image: url('../img/jumbo-bg.png');
-    background-position: top center;
 }
-.info-box {
-    color:white;
+#main-jumbo .info-box {
     padding-top: 280px;
-    padding-bottom: 50px;
 }
-#main-jumbo img.jumbo{
+img.jumbo-title{
     width: 260px;
     height: auto;
 }
@@ -103,7 +110,11 @@ header {
     border-bottom: 2px solid var(--cs-blue);
 }
 
-/* New release */
+/* New release jumbo */
+#new-release > .jumbo {
+    background-image: url('../img/it-takes-two-hero-banner-desktop.jpg');
+    background-size: cover;
+}
 #new-release {
     color: white;
 }
@@ -143,7 +154,7 @@ footer {
     #playstation-now .games {
         display: block;
     }
-    #main-jumbo img.jumbo{
+    img.jumbo-title{
         width: 380px;
         height: auto;
     }
@@ -151,7 +162,7 @@ footer {
 
 /* xxl screen */
 @media screen and (min-width: 1400px) {
-    #main-jumbo img.jumbo{
+    img.jumbo-title{
         width: 210px;
         height: auto;
     }
