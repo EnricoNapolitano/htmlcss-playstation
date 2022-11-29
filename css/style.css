@@ -141,8 +141,10 @@ img.jumbo-title{
 #new-release > .jumbo {
     background-image: url('../img/it-takes-two-hero-banner-desktop.jpg');
 }
-#new-release {
+#new-release,
+#new-release a {
     color: white;
+    text-decoration: none;
 }
 #new-release .row > .col {
     min-height: 200px;
