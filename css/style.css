@@ -121,6 +121,9 @@ header {
 .top-header figure {
     min-width: 100px;
 }
+header .fa-solid {
+    font-size: 25px;
+}
 
 /* main-jumbotron */
 #main-jumbo > .jumbo {
