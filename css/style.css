@@ -185,6 +185,7 @@ img.jumbo-title{
 #playstation5 .thumbs {
     opacity: 0.5;
     transition: 0.1s ease;
+    border-bottom: 2px solid transparent;
 }
 
 /* New release jumbo */
@@ -266,11 +267,11 @@ footer div p > a {
 .cs-btn.cs-bg-light-grey:hover {
     box-shadow: inset 0px 0px 0px 2px var(--cs-grey);
 }
-#playstation-now .cs-btn.cs-bg-light-grey:hover {
-    box-shadow: inset 0px 0px 0px 2px var(--cs-dark-blue);
-}
 a.cs-btn:hover {
     color: white;
+}
+#playstation-now .cs-btn.cs-bg-light-grey:hover {
+    box-shadow: inset 0px 0px 0px 2px var(--cs-dark-blue);
 }
 /* .dropdown-item hover */
 .dropdown-item:focus, .dropdown-item:hover {
