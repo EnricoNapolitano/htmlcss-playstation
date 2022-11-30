@@ -242,7 +242,7 @@ footer a {
 }
 
 /** HOVER */
-/* buttons */
+/* buttons hover */
 .cs-btn {
     border: 2px solid transparent;
 }
@@ -264,7 +264,7 @@ footer a {
 a.cs-btn:hover {
     color: white;
 }
-/* .dropdown-item */
+/* .dropdown-item hover */
 .dropdown-item:focus, .dropdown-item:hover {
     background-color: white;
     box-shadow: 0 0 3px black;
@@ -273,14 +273,17 @@ a.cs-btn:hover {
     box-shadow: 0 0 0;
     color: var(--cs-blue);
 }
-
-/* thumbs */
+/* thumbs hover */
 #main-jumbo li:hover {
     transform: translate(0, -20px);
 }
 #playstation5 .thumbs:hover {
     opacity: 1;
     border-bottom: 2px solid var(--cs-blue);
+}
+/* footer a hover */
+footer a:hover {
+    color: var(--cs-light-grey);
 }
 
 /** RESPONSIVE */
