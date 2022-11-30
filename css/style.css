@@ -243,6 +243,11 @@ footer a {
 .sie-logo {
     width: 140px;
 }
+footer div p > a {
+    text-decoration: underline;
+    display: inline-block;
+    padding-bottom: 2px;
+}
 
 /** HOVER */
 /* buttons hover */
