@@ -269,6 +269,10 @@ a.cs-btn:hover {
     background-color: white;
     box-shadow: 0 0 3px black;
 }
+.dropdown-item:focus, .dropdown-item.help-link:hover {
+    box-shadow: 0 0 0;
+    color: var(--cs-blue);
+}
 
 /* thumbs */
 #main-jumbo li:hover {
