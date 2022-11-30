@@ -137,8 +137,11 @@ header {
 .top-header figure {
     min-width: 100px;
 }
+/* search icon */
 header .fa-solid {
+    cursor: pointer;
     font-size: 25px;
+    padding-right: 0.5rem;
 }
 
 /* main-jumbotron */
