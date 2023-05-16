@@ -3,6 +3,5 @@ In this project, which is an exercise from Boolean Academy, I have developed a r
 https://enriconapolitano.github.io/htmlcss-playstation/
 
 <img src="preview.png">
-<img src="preview-2.png">
 
 
